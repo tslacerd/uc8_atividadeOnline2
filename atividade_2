@@ -1,0 +1,24 @@
+let data_evento = new Date (2022,02,06)
+let data_hoje = new Date (2022,06,09)
+let idade = 17
+let pessoas
+if (data_hoje > data_evento) {
+console.log ("Cadastro não realizado. Verifique data do evento")
+}else {
+console.log ("Cadastro realizado")
+}
+if (idade <18) {
+console.log ("Cadastro não realizado, verifique idade mínima")
+} else {
+console.log ("Cadastro realizado")
+}
+do {
+console.log ("Realizando cadastro")
+pessoas++
+}
+while (pessoas <=100) {
+console.log ("Cadastro realizado")
+if (pessoas >=100) {
+console.log ("Cadastro não realizado")
+}
+}
